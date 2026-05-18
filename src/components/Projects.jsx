@@ -1,8 +1,68 @@
+import { projects } from "../data/projects";
+
 function Projects() {
   return (
     <section id="projects" className="px-6 py-24">
       <div className="mx-auto max-w-6xl">
-        <h2 className="text-3xl font-bold">Projects</h2>
+        <p className="mb-3 text-sm uppercase tracking-[0.3em] text-cyan-400">
+          Projects
+        </p>
+
+        <h2 className="text-3xl font-bold md:text-4xl">
+          Featured projects and live demos
+        </h2>
+
+        <div className="mt-10 grid gap-8 md:grid-cols-2">
+          {projects.map((project) => (
+            <article
+              key={project.title}
+              className="overflow-hidden rounded-2xl border border-white/10 bg-white/5"
+            >
+              <img
+                src={project.image}
+                alt={project.title}
+                className="h-56 w-full object-cover"
+              />
+
+              <div className="p-6">
+                <h3 className="text-2xl font-semibold">{project.title}</h3>
+
+                <p className="mt-3 text-slate-300">{project.description}</p>
+
+                <div className="mt-5 flex flex-wrap gap-2">
+                  {project.technologies.map((tech) => (
+                    <span
+                      key={tech}
+                      className="rounded-full bg-slate-800 px-3 py-1 text-sm text-slate-300"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+
+                <div className="mt-6 flex gap-4">
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-full bg-cyan-400 px-5 py-2 text-sm font-medium text-slate-950 hover:bg-cyan-300"
+                  >
+                    Live Demo
+                  </a>
+
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-full border border-white/20 px-5 py-2 text-sm font-medium text-white hover:bg-white/10"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );
