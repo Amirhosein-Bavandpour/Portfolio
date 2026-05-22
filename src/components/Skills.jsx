@@ -1,3 +1,5 @@
+import SectionWrapper from "./SectionWrapper";
+
 const skillGroups = [
   {
     title: "Frontend",
@@ -11,7 +13,7 @@ const skillGroups = [
 
 function Skills() {
   return (
-    <section id="skills" className="px-6 py-24">
+    <SectionWrapper id="skills" className="px-6 py-24">
       <div className="mx-auto max-w-6xl">
         <p className="mb-3 text-sm uppercase tracking-[0.3em] text-cyan-400">
           Skills
@@ -43,7 +45,7 @@ function Skills() {
           ))}
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }
 

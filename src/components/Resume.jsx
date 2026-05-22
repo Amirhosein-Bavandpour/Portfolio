@@ -1,6 +1,8 @@
+import SectionWrapper from "./SectionWrapper";
+
 function Resume() {
   return (
-    <section id="resume" className="px-6 py-24">
+    <SectionWrapper id="resume" className="px-6 py-24">
       <div className="mx-auto max-w-6xl rounded-3xl border border-white/10 bg-white/5 p-8 md:p-12">
         <p className="mb-3 text-sm uppercase tracking-[0.3em] text-cyan-400">
           Resume
@@ -23,7 +25,7 @@ function Resume() {
           Download CV
         </a>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }
 

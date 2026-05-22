@@ -55,7 +55,7 @@ function Hero() {
             <div className="absolute inset-0 rounded-full bg-cyan-400/30 blur-2xl" />
 
             <img
-              src="/profile.jpg"
+              src="/profile.png"
               alt="Amirhosein Bavandpour"
               className="relative h-64 w-64 rounded-full border border-white/10 object-cover shadow-2xl md:h-80 md:w-80"
             />

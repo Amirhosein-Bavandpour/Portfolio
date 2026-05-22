@@ -1,8 +1,9 @@
 import { projects } from "../data/projects";
+import SectionWrapper from "./SectionWrapper";
 
 function Projects() {
   return (
-    <section id="projects" className="px-6 py-24">
+    <SectionWrapper id="projects" className="px-6 py-24">
       <div className="mx-auto max-w-6xl">
         <p className="mb-3 text-sm uppercase tracking-[0.3em] text-cyan-400">
           Projects
@@ -64,7 +65,7 @@ function Projects() {
           ))}
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }
 
