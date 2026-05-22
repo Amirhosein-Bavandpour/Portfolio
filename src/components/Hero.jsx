@@ -25,6 +25,7 @@ function Hero() {
 
           <a
             href="/cv.pdf"
+            download
             className="rounded-full border border-white/20 px-6 py-3 font-medium text-white hover:bg-white/10"
           >
             Download CV

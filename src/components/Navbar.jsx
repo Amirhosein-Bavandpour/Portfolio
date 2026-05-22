@@ -5,10 +5,21 @@ function Navbar() {
         <h1 className="text-lg font-bold">Amirhosein Bavandpour</h1>
 
         <div className="hidden gap-6 text-sm text-slate-300 md:flex">
-          <a href="#about" className="hover:text-white">About</a>
-          <a href="#skills" className="hover:text-white">Skills</a>
-          <a href="#projects" className="hover:text-white">Projects</a>
-          <a href="#contact" className="hover:text-white">Contact</a>
+          <a href="#about" className="hover:text-white">
+            About
+          </a>
+          <a href="#skills" className="hover:text-white">
+            Skills
+          </a>
+          <a href="#projects" className="hover:text-white">
+            Projects
+          </a>
+          <a href="#resume" className="hover:text-white">
+            Resume
+          </a>
+          <a href="#contact" className="hover:text-white">
+            Contact
+          </a>
         </div>
       </div>
     </nav>
