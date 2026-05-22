@@ -3,13 +3,15 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Resume from "../components/Resume";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import Resume from "../components/Resume";
+import AnimatedBackground from "../components/AnimatedBackground";
 
 function Home() {
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
+    <main className="relative min-h-screen text-white">
+      <AnimatedBackground />
       <Navbar />
       <Hero />
       <About />
