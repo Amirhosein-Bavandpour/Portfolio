@@ -16,7 +16,7 @@ function Projects() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="overflow-hidden rounded-2xl border border-white/10 bg-white/5"
+              className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 transition hover:-translate-y-2 hover:border-cyan-400/40 hover:bg-white/10"
             >
               <img
                 src={project.image}

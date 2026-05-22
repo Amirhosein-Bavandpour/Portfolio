@@ -1,9 +1,19 @@
+import { motion } from "framer-motion";
+
 function Hero() {
   return (
-    <section className="flex min-h-screen items-center px-6 pt-24">
-      <div className="mx-auto max-w-6xl">
+    <section className="relative flex min-h-screen items-center overflow-hidden px-6 pt-24">
+      <div className="absolute left-1/2 top-24 h-72 w-72 -translate-x-1/2 rounded-full bg-cyan-400/20 blur-3xl" />
+      <div className="absolute right-10 top-40 h-72 w-72 rounded-full bg-purple-500/20 blur-3xl" />
+
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="relative mx-auto max-w-6xl"
+      >
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-cyan-400">
-          Frontend Developer
+          Frontend-focused Developer
         </p>
 
         <h2 className="max-w-3xl text-4xl font-bold leading-tight md:text-6xl">
@@ -31,7 +41,7 @@ function Hero() {
             Download CV
           </a>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

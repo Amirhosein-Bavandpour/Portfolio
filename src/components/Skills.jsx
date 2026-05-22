@@ -25,7 +25,7 @@ function Skills() {
           {skillGroups.map((group) => (
             <div
               key={group.title}
-              className="rounded-2xl border border-white/10 bg-white/5 p-6"
+              className="rounded-2xl border border-white/10 bg-white/5 p-6 transition duration-300 hover:-translate-y-2 hover:border-cyan-400/40 hover:bg-white/10"
             >
               <h3 className="mb-4 text-xl font-semibold">{group.title}</h3>
 
