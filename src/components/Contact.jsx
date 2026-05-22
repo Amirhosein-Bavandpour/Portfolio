@@ -1,4 +1,5 @@
 import SectionWrapper from "./SectionWrapper";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -13,34 +14,46 @@ function Contact() {
         </h2>
 
         <p className="mt-5 max-w-2xl text-lg text-slate-300">
-          I&apos;m open to frontend and fullstack opportunities. You can contact
-          me for work, collaboration, or project discussions.
+          I&apos;m currently looking for frontend internship and junior frontend
+          developer opportunities. Feel free to contact me.
         </p>
 
-        <div className="mt-8 flex flex-wrap gap-4">
+        <div className="mt-10 grid gap-5 md:grid-cols-3">
           <a
             href="mailto:bavandpour.amirhosein@gmail.com"
-            className="rounded-full bg-cyan-400 px-6 py-3 font-medium text-slate-950 hover:bg-cyan-300"
+            className="rounded-2xl border border-white/10 bg-slate-900/60 p-6 transition hover:-translate-y-2 hover:border-cyan-400/40 hover:bg-slate-800"
           >
-            Email Me
+            <FaEnvelope className="text-3xl text-cyan-400" />
+
+            <h3 className="mt-4 text-xl font-semibold">Email</h3>
+
+            <p className="mt-2 break-all text-slate-400">bavandpour.amirhosein@gmail.com</p>
           </a>
 
           <a
             href="https://github.com/Amirhosein-Bavandpour/"
             target="_blank"
             rel="noreferrer"
-            className="rounded-full border border-white/20 px-6 py-3 font-medium text-white hover:bg-white/10"
+            className="rounded-2xl border border-white/10 bg-slate-900/60 p-6 transition hover:-translate-y-2 hover:border-cyan-400/40 hover:bg-slate-800"
           >
-            GitHub
+            <FaGithub className="text-3xl text-cyan-400" />
+
+            <h3 className="mt-4 text-xl font-semibold">GitHub</h3>
+
+            <p className="mt-2 break-all text-slate-400">github.com/Amirhosein-Bavandpour</p>
           </a>
 
           <a
             href="https://linkedin.com/in/amirhosein-bavandpour"
             target="_blank"
             rel="noreferrer"
-            className="rounded-full border border-white/20 px-6 py-3 font-medium text-white hover:bg-white/10"
+            className="rounded-2xl border border-white/10 bg-slate-900/60 p-6 transition hover:-translate-y-2 hover:border-cyan-400/40 hover:bg-slate-800"
           >
-            LinkedIn
+            <FaLinkedin className="text-3xl text-cyan-400" />
+
+            <h3 className="mt-4 text-xl font-semibold">LinkedIn</h3>
+
+            <p className="mt-2 break-all text-slate-400">linkedin.com/in/amirhosein-bavandpour</p>
           </a>
         </div>
       </div>
