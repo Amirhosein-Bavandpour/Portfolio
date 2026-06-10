@@ -18,8 +18,8 @@ function Hero() {
 
           <p className="mt-6 max-w-xl text-lg text-slate-300">
             Junior frontend developer focused on clean UI, responsive design,
-            API integration, and user-friendly web apps. My portfolio
-          is a hub for my projects, live demos, and CV.
+            API integration, and user-friendly web apps. This portfolio is a
+            hub for my projects, live demos, and CV.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -40,11 +40,21 @@ function Hero() {
           </div>
 
           <div className="mt-8 flex gap-5 text-2xl text-slate-300">
-            <a href="https://github.com/Amirhosein-Bavandpour/" target="_blank">
+            <a
+              href="https://github.com/Amirhosein-Bavandpour/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub profile"
+            >
               <FaGithub />
             </a>
 
-            <a href="https://linkedin.com/in/amirhosein-bavandpour" target="_blank">
+            <a
+              href="https://linkedin.com/in/amirhosein-bavandpour"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn profile"
+            >
               <FaLinkedin />
             </a>
           </div>

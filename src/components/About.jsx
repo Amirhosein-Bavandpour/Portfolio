@@ -17,8 +17,8 @@ function About() {
         </p>
 
         <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">
-          My goal is to create user-friendly applications that look good, work
-          smoothly.
+          My goal is to create user-friendly applications that look good and
+          work smoothly.
         </p>
       </div>
     </SectionWrapper>

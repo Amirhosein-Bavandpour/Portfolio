@@ -46,23 +46,27 @@ function Projects() {
                 </div>
 
                 <div className="mt-6 flex flex-wrap gap-4">
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full bg-cyan-400 px-5 py-2 text-sm font-medium text-slate-950 hover:bg-cyan-300"
-                  >
-                    Live Demo <FiExternalLink />
-                  </a>
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 rounded-full bg-cyan-400 px-5 py-2 text-sm font-medium text-slate-950 hover:bg-cyan-300"
+                    >
+                      Live Demo <FiExternalLink />
+                    </a>
+                  )}
 
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2 text-sm font-medium text-white hover:bg-white/10"
-                  >
-                    GitHub <FaGithub />
-                  </a>
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2 text-sm font-medium text-white hover:bg-white/10"
+                    >
+                      GitHub <FaGithub />
+                    </a>
+                  )}
                 </div>
               </div>
             </article>
