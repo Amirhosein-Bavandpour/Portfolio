@@ -34,8 +34,8 @@ export const projects = [
       "Docker",
     ],
     image: "/projects/portfolio.png",
-    liveUrl: "",
-    githubUrl: "https://github.com/Amirhosein-Bavandpour/Portofolio",
+    liveUrl: "https://amirhosein-bavandpour.netlify.app/",
+    githubUrl: "https://github.com/Amirhosein-Bavandpour/Portfolio",
   },
   {
     title: "Messenger React App",
