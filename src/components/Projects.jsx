@@ -30,7 +30,15 @@ function Projects() {
               </div>
 
               <div className="p-6">
-                <h3 className="text-2xl font-semibold">{project.title}</h3>
+                <div className="flex flex-wrap items-baseline gap-3">
+                  <h3 className="text-2xl font-semibold">{project.title}</h3>
+
+                  {project.status && (
+                    <span className="rounded-full border border-cyan-300/40 bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-none text-cyan-200 shadow-[0_0_18px_rgba(34,211,238,0.35)]">
+                      {project.status}
+                    </span>
+                  )}
+                </div>
 
                 <p className="mt-3 text-slate-300">{project.description}</p>
 

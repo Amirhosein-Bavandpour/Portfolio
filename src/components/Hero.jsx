@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden px-6 pt-24">
+    <section className="relative flex min-h-screen items-center overflow-hidden px-6 pt-24 pb-20 md:pb-0">
       <div className="absolute left-1/2 top-24 h-72 w-72 -translate-x-1/2 rounded-full bg-cyan-400/20 blur-3xl" />
       <div className="absolute right-10 top-40 h-72 w-72 rounded-full bg-purple-500/20 blur-3xl" />
 

@@ -55,6 +55,8 @@ function Navbar() {
 
         <button
           onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-expanded={menuOpen}
           className="text-3xl text-white md:hidden"
         >
           {menuOpen ? <HiX /> : <HiMenu />}

@@ -3,11 +3,46 @@ import SectionWrapper from "./SectionWrapper";
 const skillGroups = [
   {
     title: "Frontend",
-    skills: ["React", "JavaScript", "HTML", "CSS", "TailwindCSS"],
+    skills: [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "Framer Motion",
+      "Responsive Design",
+    ],
+  },
+  {
+    title: "State & Routing",
+    skills: [
+      "React Router",
+      "Context API",
+      "React Hooks",
+      "JWT Authentication",
+      "localStorage",
+    ],
+  },
+  {
+    title: "Backend & APIs",
+    skills: [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "REST APIs",
+      "Axios",
+      "Fetch API",
+    ],
+  },
+  {
+    title: "App Features",
+    skills: ["PWA", "Capacitor", "Recharts", "React Icons", "Open-Meteo API"],
   },
   {
     title: "Tools",
-    skills: ["Git", "Docker", "Linux", "Vite"],
+    skills: ["Git", "Docker", "Linux", "Vite", "Postman", "npm"],
   },
 ];
 
