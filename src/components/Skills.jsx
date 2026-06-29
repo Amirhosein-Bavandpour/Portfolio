@@ -37,6 +37,29 @@ const skillGroups = [
     ],
   },
   {
+    title: "AI & LLM Engineering",
+    skills: [
+      "LLM Workflows",
+      "Prompt Engineering",
+      "Local AI Agents",
+      "OpenClaw",
+      "Hermes",
+      "AI Tooling",
+      "Model Integration",
+    ],
+  },
+  {
+    title: "Machine Learning",
+    skills: [
+      "Deep Learning",
+      "CNNs",
+      "Python",
+      "Data Preprocessing",
+      "Model Evaluation",
+      "AI Research",
+    ],
+  },
+  {
     title: "App Features",
     skills: ["PWA", "Capacitor", "Recharts", "React Icons", "Open-Meteo API"],
   },
@@ -55,7 +78,7 @@ function Skills() {
         </p>
 
         <h2 className="text-3xl font-bold md:text-4xl">
-          Technologies I work with
+          Technologies and AI tools I work with
         </h2>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">

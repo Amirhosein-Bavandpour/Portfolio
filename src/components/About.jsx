@@ -8,17 +8,20 @@ function About() {
           About Me
         </p>
         <h2 className="text-3xl font-bold md:text-4xl">
-          I enjoy building clean and practical web experiences.
+          I enjoy building clean web experiences and practical AI systems.
         </h2>
 
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-          I am a frontend developer who builds responsive web applications with
-          React.
+          I am a frontend developer and AI engineer who builds responsive web
+          applications with React and explores ways to bring intelligent
+          features into real products.
         </p>
 
         <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">
-          My goal is to create user-friendly applications that look good and
-          work smoothly.
+          My AI background includes deep learning, CNN-based modeling, LLM
+          workflows, local AI agents, and model-assisted problem solving. My
+          goal is to create applications that are useful, clear, and easy to
+          work with.
         </p>
       </div>
     </SectionWrapper>

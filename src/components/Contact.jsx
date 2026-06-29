@@ -14,8 +14,9 @@ function Contact() {
         </h2>
 
         <p className="mt-5 max-w-2xl text-lg text-slate-300">
-          I&apos;m currently looking for frontend internship and junior frontend
-          developer opportunities. Feel free to contact me.
+          I&apos;m currently looking for junior frontend, AI engineering, and
+          AI-assisted application development opportunities. Feel free to
+          contact me.
         </p>
 
         <div className="mt-10 grid gap-5 md:grid-cols-3">

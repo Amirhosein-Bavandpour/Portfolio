@@ -9,17 +9,19 @@ function Hero() {
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
         <div>
           <p className="mb-4 text-sm uppercase tracking-[0.3em] text-cyan-400">
-            Frontend Developer
+            Frontend & AI Engineer
           </p>
 
           <h2 className="text-4xl font-bold leading-tight md:text-6xl">
-            Hi, I&apos;m Amirhosein. I build modern web applications with React.
+            Hi, I&apos;m Amirhosein. I build modern web apps and AI-powered
+            tools.
           </h2>
 
           <p className="mt-6 max-w-xl text-lg text-slate-300">
-            Junior frontend developer focused on clean UI, responsive design,
-            API integration, and user-friendly web apps. This portfolio is a
-            hub for my projects, live demos, and CV.
+            Junior frontend developer and AI engineer with a master&apos;s
+            background in artificial intelligence. I work with React,
+            responsive UI, API integration, LLM workflows, local agents, and
+            practical AI-assisted applications.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
