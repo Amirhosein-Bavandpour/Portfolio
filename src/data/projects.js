@@ -76,4 +76,23 @@ export const projects = [
     liveUrl: "",
     githubUrl: "https://github.com/Amirhosein-Bavandpour/Blog-React",
   },
+  {
+    title: "Job Hunt Dashboard",
+    description:
+      "A job-application tracker built as a production-style frontend: dashboard stats, application CRUD, and a planned Kanban board — with explicitly separated state architecture (RTK Query for server state, Redux Toolkit for business state, Zustand for UI state) on a custom-themed Material UI interface.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Material UI",
+      "Redux Toolkit",
+      "RTK Query",
+      "Zustand",
+      "Framer Motion",
+      "React",
+    ],
+    image: "/projects/job-hunt-dashboard.png",
+    liveUrl: "",
+    githubUrl: "https://github.com/Amirhosein-Bavandpour/Job-Hunt-Dashboard",
+  },
+
 ];
