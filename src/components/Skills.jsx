@@ -5,11 +5,13 @@ const skillGroups = [
     title: "Frontend",
     skills: [
       "React",
+      "Next.js",
       "JavaScript",
       "TypeScript",
       "HTML",
       "CSS",
       "TailwindCSS",
+      "Material UI",
       "Framer Motion",
       "Responsive Design",
     ],
@@ -19,6 +21,9 @@ const skillGroups = [
     skills: [
       "React Router",
       "Context API",
+      "Zustand",
+      "Redux",
+      "RTK Query",
       "React Hooks",
       "JWT Authentication",
       "localStorage",
