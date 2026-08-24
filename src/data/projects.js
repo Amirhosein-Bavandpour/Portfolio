@@ -78,6 +78,7 @@ export const projects = [
   },
   {
     title: "Job Hunt Dashboard",
+    status: "Work in progress",
     description:
       "A job-application tracker built as a production-style frontend: dashboard stats, application CRUD, and a planned Kanban board — with explicitly separated state architecture (RTK Query for server state, Redux Toolkit for business state, Zustand for UI state) on a custom-themed Material UI interface.",
     technologies: [
@@ -91,7 +92,7 @@ export const projects = [
       "React",
     ],
     image: "/projects/job-hunt-dashboard.png",
-    liveUrl: "",
+    liveUrl: "https://job-hunt-dashboard-ab.netlify.app/",
     githubUrl: "https://github.com/Amirhosein-Bavandpour/Job-Hunt-Dashboard",
   },
 
