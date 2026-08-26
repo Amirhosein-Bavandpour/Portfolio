@@ -15,11 +15,11 @@ function Projects() {
           Featured projects and live demos
         </h2>
 
-        <div className="mt-10 grid gap-8 md:grid-cols-2">
+        <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
           {projects.map((project) => (
             <article
               key={project.title}
-              className="group overflow-hidden rounded-2xl border border-white/10 bg-white/5 transition duration-300 hover:-translate-y-2 hover:border-cyan-400/40 hover:bg-white/10"
+              className="group min-w-0 overflow-hidden rounded-2xl border border-white/10 bg-white/5 transition duration-300 hover:-translate-y-2 hover:border-cyan-400/40 hover:bg-white/10"
             >
               <div className="overflow-hidden">
                 <img
@@ -40,7 +40,7 @@ function Projects() {
                   )}
                 </div>
 
-                <p className="mt-3 text-slate-300">{project.description}</p>
+                <p className="mt-3 break-words text-slate-300">{project.description}</p>
 
                 <div className="mt-5 flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
