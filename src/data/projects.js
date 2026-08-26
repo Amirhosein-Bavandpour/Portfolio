@@ -80,7 +80,7 @@ export const projects = [
     title: "Job Hunt Dashboard",
     status: "Work in progress",
     description:
-      "A job-application tracker built as a production-style frontend: JWT authentication with protected routes, dashboard stats, full application CRUD (add/edit/delete) with search, status filter, sortable columns and pagination, a drag-and-drop Kanban board with optimistic updates, a Calendar view of interview dates, and an Analytics dashboard (status donut, applications-over-time area, and status-trend stacked bars via Recharts) — with explicitly separated state architecture (RTK Query for server state, Redux Toolkit for business state, Zustand for UI state) on a custom dark/light themed Material UI interface with Framer Motion transitions.",
+      "A job-application tracker built as a production-style frontend: JWT authentication with protected routes, dashboard stats, full application CRUD (add/edit/delete) with search, status filter, sortable columns and pagination, a drag-and-drop Kanban board with optimistic updates, a Calendar view of interview dates, an Analytics dashboard (status donut, applications-over-time area, and status-trend stacked bars via Recharts), a Companies view aggregating applications by employer, and a dark/light theme toggle — with explicitly separated state architecture (RTK Query for server state, Redux Toolkit for business state, Zustand for UI state) on a custom Material UI interface with Framer Motion transitions.",
     technologies: [
       "Next.js",
       "TypeScript",
