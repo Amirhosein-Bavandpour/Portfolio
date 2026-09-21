@@ -78,9 +78,8 @@ export const projects = [
   },
   {
     title: "Job Hunt Dashboard",
-    status: "Work in progress",
     description:
-      "A production-style job-application tracker built to demonstrate real frontend architecture. Features: JWT auth (bcrypt + httpOnly cookies) with protected routes, a dashboard with live stats, full CRUD (add/edit/delete) with search, status filter, sortable columns and pagination, a drag-and-drop Kanban board with optimistic updates, a Calendar of interview dates, an Analytics view (status donut, applications-over-time area, and status-trend stacked bars via Recharts), a Companies aggregator, per-application interview-prep notes, and a dark/light theme toggle. The key selling point is its explicitly separated state architecture — RTK Query owns server state (caching, loading, error), Redux Toolkit owns business state (auth), and Zustand owns UI state (sidebar, view mode) — on a custom Material UI theme with Framer Motion transitions. Backed by a real in-repo backend: Next.js Route Handlers with a file store (swappable for a database without touching components).",
+      "A production-style job-application tracker built to demonstrate real frontend architecture. Features: JWT auth (bcrypt + httpOnly cookies) with protected routes, a dashboard with live stats, full CRUD (add/edit/delete) with search, status filter, sortable columns and pagination, a drag-and-drop Kanban board with optimistic updates, a Calendar of interview dates, an Analytics view (status donut, applications-over-time area, and status-trend stacked bars via Recharts), a Companies aggregator, per-application interview-prep notes, and a dark/light theme toggle. The key selling point is its explicitly separated state architecture — RTK Query owns server state (caching, loading, error), Redux Toolkit owns business state (auth), and Zustand owns UI state (sidebar, view mode) — on a custom Material UI theme with Framer Motion transitions. Backed by a real in-repo backend: Next.js Route Handlers with a file store (swappable for a database without touching components); on the read-only Netlify runtime the auth routes fall back to a demo user so the protected UI still renders.",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -96,5 +95,4 @@ export const projects = [
     liveUrl: "https://job-hunt-dashboard-ab.netlify.app/",
     githubUrl: "https://github.com/Amirhosein-Bavandpour/Job-Hunt-Dashboard",
   },
-
 ];
